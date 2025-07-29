@@ -1,62 +1,50 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# Multiple Second-Hand-Mortgage Payouts to the Same Payee\n",
-    "\n",
-    "> Detects clusters of loans where many different borrowers send money to the same recipient account — a strong indicator of organized mortgage fraud.\n",
-    "\n",
-    "## 📌 How it works\n",
-    "\n",
-    "1. Select second-hand housing loans issued in a time window\n",
-    "2. Join with account-level payee data\n",
-    "3. Flag payee accounts used by >10 distinct borrowers\n",
-    "4. Output all relevant details including borrower name, balance, partner organization, etc.\n",
-    "\n",
-    "## 📁 Tables used (generic)\n",
-    "\n",
-    "- `loan_bill` — per-loan facts like lending date, balance\n",
-    "- `loan_account` — payee accounts and contract metadata\n",
-    "- `partner_org`, `customer_prof`, `project` — dimensions for context\n",
-    "\n",
-    "## 🎛 Parameters\n",
-    "\n",
-    "- `:snapshot_date` — report date for current view\n",
-    "- `:year_list` — years to include (e.g. 2023–2025)\n",
-    "\n",
-    "## 📌 Output\n",
-    "\n",
-    "Includes payee account name, # of borrowers sharing it, and all related business info. Sorted by highest risk first.\n",
-    "\n",
-    "## 📣 License\n",
-    "\n",
-    "Apache-2.0 — reuse freely with attribution. Please ⭐️ the main repo if useful!"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.11.0"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 4
-}
+# fin-risk-models
+
+**Open-source SQL and AI-based models for financial risk detection, fraud analytics, and regulatory compliance.**
+
+This repository curates a collection of practical, modular, and ready-to-use models for identifying financial risks across domains like:
+
+- ✅ Fraudulent lending behavior
+- ✅ Anti-money laundering (AML)
+- ✅ Credit risk concentration
+- ✅ Transaction network anomalies
+- ✅ Graph-based customer relationship risk
+
+Each model includes:
+- Well-documented SQL logic or algorithm
+- A sample use case or detection scenario
+- Parameters you can adjust
+- English markdown explanation (and optionally citations)
+
+---
+
+## 📦 Available Models
+
+| Date | Model Title | Description |
+|------|-------------|-------------|
+| 2025-07-29 | [Multiple Second-Hand-Mortgage Payouts to the Same Payee](./2025-07-29_multi-secondhand-mortgage/README.md) | Flags suspicious clusters where many borrowers share the same recipient account — a red flag for organised fraud. |
+
+_(New models added daily. See commit history or Releases for changelog.)_
+
+---
+
+## 📌 How to Use
+
+Clone or download individual model folders. Each one includes:
+- `.sql` (or `.ipynb`) — the core logic
+- `README.md` — usage and explanation
+
+If you find these useful, please ⭐️ the repo or cite it in your work.
+
+---
+
+## 📖 License
+
+This project is licensed under the Apache 2.0 License — feel free to adapt and reuse with attribution.
+
+---
+
+## 👤 Author
+
+Maintained by [@ZhangLixin0714](https://github.com/ZhangLixin0714)  
+I work at the intersection of **risk modeling**, **regulatory tech**, and **AI for finance**, and share these models in support of community growth and my NIW petition. Feedback and contributions are welcome!
