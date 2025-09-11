@@ -26,7 +26,7 @@ Each model includes:
 | 2025-09-05 | [Personal Loans — Concentrated Proceeds to a Single Counterparty (Branch-Level)](./2025-09-05_concentrated-loan-proceeds/README.md) | Detects cases where multiple personal loans are funneled into the same counterparty account within the same branch — useful for spotting fund-pooling, straw-buyer rings, or collusion. |
 | 2025-09-06 | [Employee Self-Involvement in Own Loan Workflow](./2025-09-06_employee-self-involvement/README.md) | Flags loans where employees act on their own loan workflows — conflict-of-interest risk |
 | 2025-09-07 | [Personal Business Loan — First-Year Delinquency After Origination](./2025-09-07_personal-business-loan-first-year-delinquency/README.md) | Flags personal business loans that become delinquent within the first year — key KPI for underwriting and channel risk. |
-
+| 2025-09-11 | [Personal Loan — Quarter-End Origination & Early Next-Quarter Payoff](./2025-09-08_quarter-end-origination/README.md) | Flags quarter-end loans that are quickly repaid at the start of the next quarter — potential “window dressing” risk. |
 _(New models added daily. See commit history or Releases for changelog.)_
 
 ---
