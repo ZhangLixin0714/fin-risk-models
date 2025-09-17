@@ -27,6 +27,8 @@ Each model includes:
 | 2025-09-06 | [Employee Self-Involvement in Own Loan Workflow](./2025-09-06_employee-self-involvement/README.md) | Flags loans where employees act on their own loan workflows — conflict-of-interest risk |
 | 2025-09-07 | [Personal Business Loan — First-Year Delinquency After Origination](./2025-09-07_personal-business-loan-first-year-delinquency/README.md) | Flags personal business loans that become delinquent within the first year — key KPI for underwriting and channel risk. |
 | 2025-09-11 | [Personal Loan — Quarter-End Origination & Early Next-Quarter Payoff](./2025-09-11_quarter-end-origination/README.md) | Flags quarter-end loans that are quickly repaid at the start of the next quarter — potential “window dressing” risk. |
+| 2025-09-17 | [Mortgage — Large Card Installment in the 90 Days Pre-Disbursement](./2025-09-17_mortgage-pre-disbursement-card-installment/README.md) | Flags borrowers with sizable card-installments shortly before interest start — a signal of hidden liabilities or cash-flow stress. |
+
 _(New models added daily. See commit history or Releases for changelog.)_
 
 ---
