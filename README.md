@@ -29,6 +29,7 @@ Each model includes:
 | 2025-09-11 | [Personal Loan — Quarter-End Origination & Early Next-Quarter Payoff](./2025-09-11_quarter-end-origination/README.md) | Flags quarter-end loans that are quickly repaid at the start of the next quarter — potential “window dressing” risk. |
 | 2025-09-17 | [Mortgage — Large Card Installment in the 90 Days Pre-Disbursement](./2025-09-17_mortgage-pre-disbursement-card-installment/README.md) | Flags borrowers with sizable card-installments shortly before interest start — a signal of hidden liabilities or cash-flow stress. |
 | 2025-09-26 | [Personal Loans — Overdue Post-Loan Task Backlog](./2025-09-26_overdue-post-loan-task-backlog/README.md) | Flags branches/officers with sustained backlogs of overdue post-loan tasks (weak controls, higher future risk). |
+| 2025-10-15 | [Corporate Loans Used to Settle the Company’s Own Maturing Trade Bills](./2025-10-15_corp-loan-bill-redemption/README.md) | Matches loans within N days before a bill maturity (same company) where loan ≈ bill amount — signals liquidity recycling. |
 _(New models added daily. See commit history or Releases for changelog.)_
 
 ---
