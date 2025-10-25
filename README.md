@@ -31,6 +31,7 @@ Each model includes:
 | 2025-09-26 | [Personal Loans — Overdue Post-Loan Task Backlog](./2025-09-26_overdue-post-loan-task-backlog/README.md) | Flags branches/officers with sustained backlogs of overdue post-loan tasks (weak controls, higher future risk). |
 | 2025-10-15 | [Corporate Loans Used to Settle the Company’s Own Maturing Trade Bills](./2025-10-15_corp-loan-bill-redemption/README.md) | Matches loans within N days before a bill maturity (same company) where loan ≈ bill amount — signals liquidity recycling. |
 | 2025-10-16 | [Corporate Trade Bill Issuance — Full-Portfolio Monitoring](./2025-10-16_corporate-bill-issuance/README.md) | Aggregates and flags abnormal corporate bill issuance versus loan exposure or historical trends. |
+| 2025-10-25 | [SME Trade Bill Issuance — Monitoring Model](./2025-10-25_sme-bill-issuance/README.md) | Flags small & micro enterprises with abnormal bill issuance volume or ratios versus loan exposure. |
 _(New models added daily. See commit history or Releases for changelog.)_
 
 ---
