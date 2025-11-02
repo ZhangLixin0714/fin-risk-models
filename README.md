@@ -32,6 +32,8 @@ Each model includes:
 | 2025-10-15 | [Corporate Loans Used to Settle the Company’s Own Maturing Trade Bills](./2025-10-15_corp-loan-bill-redemption/README.md) | Matches loans within N days before a bill maturity (same company) where loan ≈ bill amount — signals liquidity recycling. |
 | 2025-10-16 | [Corporate Trade Bill Issuance — Full-Portfolio Monitoring](./2025-10-16_corporate-bill-issuance/README.md) | Aggregates and flags abnormal corporate bill issuance versus loan exposure or historical trends. |
 | 2025-10-17 | [SME Trade Bill Issuance — Monitoring Model](./2025-10-17_sme-bill-issuance/README.md) | Flags small & micro enterprises with abnormal bill issuance volume or ratios versus loan exposure. |
+| 2025-11-02 | [Trade Bill Redemption — Advance Payment Detection](./2025-11-02_bill-redemption-advance/README.md) | Detects bills redeemed through third-party or bank advance payments prior to maturity, indicating potential hidden rollover risk. |
+
 _(New models added daily. See commit history or Releases for changelog.)_
 
 ---
