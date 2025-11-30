@@ -34,6 +34,7 @@ Each model includes:
 | 2025-10-17 | [SME Trade Bill Issuance — Monitoring Model](./2025-10-17_sme-bill-issuance/README.md) | Flags small & micro enterprises with abnormal bill issuance volume or ratios versus loan exposure. |
 | 2025-11-02 | [Trade Bill Redemption — Advance Payment Detection](./2025-11-02_bill-redemption-advance/README.md) | Detects bills redeemed through third-party or bank advance payments prior to maturity, indicating potential hidden rollover risk. |
 | 2025-11-14 | [Discount Financing — Artificial Green Classification (CRC Correction Category)](./2025-11-14_discount-green-classification-correction/README.md) | Detects enterprises whose green classification is inconsistent with financing behavior, especially discount flows contradicting green use-of-funds. |
+| 2025-11-30 | [E-Collateral Quick Loan — Classified Assets (Substandard / Doubtful / Loss)](./2025-11-30_ecollateral-npl-classification/README.md) | Extracts and profiles NPL-classified E-Collateral Quick Loans for asset-quality monitoring. |
 
 _(New models added daily. See commit history or Releases for changelog.)_
 
