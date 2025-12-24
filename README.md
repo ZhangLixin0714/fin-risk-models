@@ -36,6 +36,7 @@ Each model includes:
 | 2025-11-14 | [Discount Financing — Artificial Green Classification (CRC Correction Category)](./2025-11-14_discount-green-classification-correction/README.md) | Detects enterprises whose green classification is inconsistent with financing behavior, especially discount flows contradicting green use-of-funds. |
 | 2025-11-30 | [E-Collateral Quick Loan — Classified Assets (Substandard / Doubtful / Loss)](./2025-11-30_ecollateral-npl-classification/README.md) | Extracts and profiles NPL-classified E-Collateral Quick Loans for asset-quality monitoring. |
 | 2025-12-12 | [Corporate Loan — Mortgage Contract Expiry Does Not Cover Loan Tenor](./2025-12-12_mortgage-expiry-gap/README.md) | Flags corporate loans where mortgage contracts expire before loan maturity, creating uncovered collateral risk. |
+| 2025-12-24 | [Corporate Loan — Notes with Significant Provision Fluctuations](./2025-12-24_corporate-loan-provision-volatility/README.md) | Flags corporate loan notes with abnormal provisioning changes, supporting asset quality and accounting risk reviews. |
 
 _(New models added daily. See commit history or Releases for changelog.)_
 
