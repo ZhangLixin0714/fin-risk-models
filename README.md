@@ -40,6 +40,7 @@ Each model includes:
 | 2026-01-25 | [SME Borrowers (Non-NPL) with External Fraud Events](./2026-01-25_sme-external-fraud-events-non-npl/README.md) | Identifies performing SME borrowers with external fraud, litigation, or dishonesty events as early warning signals. |
 | 2026-04-14 | [Entrusted Loans — Multiple Different Principals Funding the Same Borrower](./2026-04-14_multiple-principals-same-borrower/README.md) | Flags borrowers receiving entrusted-loan funding from multiple distinct principals, highlighting look-through concentration risk. |
 | 2026-05-04 | [SME Corporate Loans — Time from Origination to NPL](./2026-05-04_sme-loan-time-to-npl/README.md) | Measures time-to-default and flags early default loans, indicating underwriting or fraud risk. |
+| 2026-08-15 | [SME Operating Cash Flows Primarily Sourced from Related Enterprises](./2026-08-15_sme-related-party-cashflow/README.md) | Identifies SME borrowers whose pre-origination operating inflows are predominantly sourced from related enterprises, highlighting business-independence and cash-flow authenticity risks. |
 
 _(New models added daily. See commit history or Releases for changelog.)_
 
