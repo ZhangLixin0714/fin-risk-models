@@ -42,6 +42,7 @@ Each model includes:
 | 2026-05-04 | [SME Corporate Loans — Time from Origination to NPL](./2026-05-04_sme-loan-time-to-npl/README.md) | Measures time-to-default and flags early default loans, indicating underwriting or fraud risk. |
 | 2026-08-15 | [SME Operating Cash Flows Primarily Sourced from Related Enterprises](./2026-08-15_sme-related-party-cashflow/README.md) | Identifies SME borrowers whose pre-origination operating inflows are predominantly sourced from related enterprises, highlighting business-independence and cash-flow authenticity risks. |
 | 2026-08-30 | [Corporate Loans — Interest Collection Configuration Anomaly Review](./2026-08-30_corporate-loan-interest-collection-review/README.md) | Builds a review population of corporate loans with selected interest-period configurations and exposes pricing, overdue-interest, repayment and agreement-linkage fields for detecting potential interest collection anomalies. |
+| 2026-09-06 | [Newly Originated Loans — Short-Term Credit Deterioration Detection](./2026-09-06_new-loan-short-term-deterioration/README.md) | Identifies newly originated loans that become overdue or materially deteriorate within approximately one year, supporting underwriting-quality and early-warning analysis. |
 
 _(New models added daily. See commit history or Releases for changelog.)_
 
