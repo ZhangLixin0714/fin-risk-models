@@ -44,6 +44,7 @@ Each model includes:
 | 2026-08-30 | [Corporate Loans — Interest Collection Configuration Anomaly Review](./2026-08-30_corporate-loan-interest-collection-review/README.md) | Builds a review population of corporate loans with selected interest-period configurations and exposes pricing, overdue-interest, repayment and agreement-linkage fields for detecting potential interest collection anomalies. |
 | 2026-09-06 | [Newly Originated Loans — Short-Term Credit Deterioration Detection](./2026-09-06_new-loan-short-term-deterioration/README.md) | Identifies newly originated loans that become overdue or materially deteriorate within approximately one year, supporting underwriting-quality and early-warning analysis. |
 | 2026-09-13 | [Credit Operations Alerts — Overdue Investigation Response Monitoring](./2026-09-13_overdue-credit-operations-investigation/README.md) | Identifies SME credit-monitoring alerts where investigation or feedback handling exceeds the required response period, supporting operational-control and SLA monitoring. |
+| 2026-10-11 | [Loan Disbursement — Potential Entrusted Payment Non-Compliance Detection](./2026-10-11_entrusted-payment-compliance/README.md) | Identifies corporate loans with potentially non-compliant entrusted payments by comparing contractual payment instructions, actual fund transfers, and post-disbursement account balances. |
 
 _(New models added daily. See commit history or Releases for changelog.)_
 
