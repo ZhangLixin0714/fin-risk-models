@@ -46,6 +46,7 @@ Each model includes:
 | 2026-09-13 | [Credit Operations Alerts — Overdue Investigation Response Monitoring](./2026-09-13_overdue-credit-operations-investigation/README.md) | Identifies SME credit-monitoring alerts where investigation or feedback handling exceeds the required response period, supporting operational-control and SLA monitoring. |
 | 2026-10-11 | [Loan Disbursement — Potential Entrusted Payment Non-Compliance Detection](./2026-10-11_entrusted-payment-compliance/README.md) | Identifies corporate loans with potentially non-compliant entrusted payments by comparing contractual payment instructions, actual fund transfers, and post-disbursement account balances. |
 | 2026-10-25 | [Potential Funding of Bank Acceptance Margins from Corporate Loans](./2026-10-25_bank-acceptance-margin-funding/README.md) | Flags corporate loan disbursements shortly preceding bank acceptance margin deposits by the same borrower for potential loan-proceeds misuse review; does not establish actual funds flow. |
+| 2026-11-01 | [Potential Funding of Bank Acceptance Margins from Related-Party Corporate Loans](./2026-11-01_related-party-loan-margin-funding/README.md) | Flags bank acceptance margin deposits shortly after corporate loan disbursements to different companies in the same credit group, requiring funds-flow verification. |
 
 
 _(New models added daily. See commit history or Releases for changelog.)_
